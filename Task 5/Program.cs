@@ -16,21 +16,20 @@ namespace Task_5
 
             }
             Console.WriteLine(sum);
-            int i = 1;
-            while ( i<20){
+            int j = 1;
+            while ( j<20){
               
-                 if(i%4==0) {
+                 if(j%4==0) {
                     continue;
                 }
-                else if (i == 15)
+                else if (j == 15)
                 {
                     break;
                 }
-                 Console.WriteLine(i);
+                 Console.WriteLine(j);
             }
 
-            // Part 3: Sum of all elements in an array using foreach loop
-            int[] arr = { 2, 4, 6, 8, 10 }; // Example array
+            int[] arr = { 2, 4, 6, 8, 10 };
             int total = 0;
             foreach (int item in arr)
             {
